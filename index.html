@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="date.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>WORLD OF WORK</h1>
+    <p class="caption">IT IS YOUR FUTURE IT DEPENDS ON YOU</p>
+    <p>YOU CHOOSE THE ADVENTURE WE MAKE IT HAPPEN</p>
+
+    <h2>HELLO WELCOME</h2>
+    <div class="home-page">
+
+        <video autoplay muted loop class="background-video">
+            <source src="pink.mp4" type="video/mp4">
+        </video>
+
+        <div class="container">
+            <br>
+            <button id="signInButton">SIGN IN</button>
+            
+            <footer>
+                <p>&copy; 2024 My Website. All rights reserved.</p>
+            </footer>
+        </div>
+
+        <script>
+            document.getElementById('signInButton').addEventListener('click', function() {
+                // Redirect to cover page directly without username
+                window.location.href = 'coverpage.html';
+            });
+        </script>
+    </div>
+</body>
+</html>
